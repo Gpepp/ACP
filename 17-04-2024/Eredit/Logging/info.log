@@ -1,0 +1,84 @@
+WARNING - 04/26/2024 12:34:11 PM [SERVER] MagImplement create
+WARNING - 04/26/2024 12:34:56 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:34:57 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:34:58 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:34:58 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:34:58 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] depositato - laptop - 63
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] prelevato - laptop - 63
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - prelievo - laptop - 63
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] depositato - laptop - 10
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] prelevato - laptop - 10
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - prelievo - laptop - 10
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] depositato - smartphone - 16
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] prelevato - smartphone - 16
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:11 PM [CLIENT] - prelievo - smartphone - 16
+WARNING - 04/26/2024 12:35:11 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - laptop - 99
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - laptop - 99
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - laptop - 26
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - laptop - 99
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - laptop - 26
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - laptop - 26
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - smartphone - 19
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - smartphone - 19
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - smartphone - 19
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - smartphone - 28
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - smartphone - 28
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - smartphone - 28
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - laptop - 2
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] depositato - smartphone - 3
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - laptop - 2
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] prelevato - smartphone - 3
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - laptop - 2
+WARNING - 04/26/2024 12:35:12 PM [CLIENT] - prelievo - smartphone - 3
+WARNING - 04/26/2024 12:35:12 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - smartphone - 77
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - smartphone - 2
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - smartphone - 59
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - smartphone - 73
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - smartphone - True
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - laptop - 97
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] prelevato - laptop - 97
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] prelevato - laptop - 62
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - prelievo - laptop - 97
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] depositato - laptop - 62
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - deposito - laptop - True
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - prelievo - laptop - 62
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] thread run_fun
+WARNING - 04/26/2024 12:35:13 PM [SKELETON] prelevato - smartphone - 2
+WARNING - 04/26/2024 12:35:13 PM [CLIENT] - prelievo - smartphone - 2
