@@ -1,0 +1,3 @@
+1. unary -> Nel Tutti i messaggi vengono inviati una volta creati
+2. stream_client -> Il client può richiedere tutta la coda di prodotti
+3. stream_client-server -> Il client può mandare uno stream di prodotti da aggiungere
