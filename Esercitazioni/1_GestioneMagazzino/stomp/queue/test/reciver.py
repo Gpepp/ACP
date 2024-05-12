@@ -1,5 +1,7 @@
 import time, stomp
 
+exit = False
+
 class Listener(stomp.ConnectionListener):
 
     def __init__(self, conn):
@@ -8,9 +10,15 @@ class Listener(stomp.ConnectionListener):
     def on_message(self, frame):
         print('Recived Frame')
         print(frame)
+        if frame.body == 'exit':
+            self.con.disconnect()
+            exit = True
 
     def on_send(self,frame):
         print('on_send:',frame)
+
+    def on_connected(self, frame):
+        print('connessione avvenuta', frame)
 
 
 if __name__ == '__main__':
@@ -22,7 +30,10 @@ if __name__ == '__main__':
     my_con.subscribe(destination='/queue/my_test', id=1, ack='auto')
 
 
-    time.sleep(100000)
+    while not exit:
+        time.sleep(10)
+        print(exit) 
+
     
 
     my_con.disconnect()
