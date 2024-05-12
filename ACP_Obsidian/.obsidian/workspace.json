@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "488485c1da7ab364",
+    "type": "split",
+    "children": [
+      {
+        "id": "366daedaadbc4a2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9c14ee386f28bdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Appunti/12 - Programmazione su Rete in Python.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2de33467b7dcaea8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1d75ece3b5a89c51",
+    "type": "split",
+    "children": [
+      {
+        "id": "84ec5c4fa51114c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf647e9a7ee0cd3b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03cffe4d505b8152",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f11e3d858897e242",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "1412e59ce96e1679",
+    "type": "split",
+    "children": [
+      {
+        "id": "462a215537f10160",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3ce470e34fe7dbd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Appunti/12 - Programmazione su Rete in Python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e446130abe7d350",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Appunti/12 - Programmazione su Rete in Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9cda3a799f38570a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3b047501c9d3e569",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Appunti/12 - Programmazione su Rete in Python.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e9c14ee386f28bdb",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "Appunti/12 - Programmazione su Rete in Python.md",
+    "Export/Teoria.md",
+    "Export/Python.md",
+    "Appunti/13 - Sistemi Middleware.md",
+    "Python/Midleware/RPC - gRPC.md",
+    "Export",
+    "Esempio.md",
+    "Python/Midleware",
+    "Appunti/img/SunRPC_Dispatcher.png",
+    "Untitled.canvas",
+    "Appunti/0 - Index.md",
+    "Appunti/img",
+    "Appunti/img/Sistemi_Distribuiti.png",
+    "Python/Socket.md",
+    "Python/Concurrency.md",
+    "Appunti",
+    "Python/Applicazioni client-server.md",
+    "Esercitazioni/17-04-2024.md",
+    "Python",
+    "Esercitazioni",
+    "ACP/Python/Applicazioni client-server.md",
+    "ACP/Esercitazioni/17-04-2024.md",
+    "ACP/Python/Socket.md",
+    "ACP/Python/Concurrency.md",
+    "ACP/Esercitazioni",
+    "ACP/Python",
+    "ACP",
+    "create a link.md"
+  ]
+}
