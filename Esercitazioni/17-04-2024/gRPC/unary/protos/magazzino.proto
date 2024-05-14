@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package magazzino;
+
+service gestioneMagazzino{
+        rpc deposita (articolo) returns (msg_ack){}
+        rpc preleva (msg_preleva) returns(articolo){}
+}
+
+message articolo{
+        string tipo = 1;
+        int32 id = 2;
+}
+
+message msg_ack{
+        bool ack = 1;
+}
+
+message msg_preleva{
+	string tipo = 1;
+}
