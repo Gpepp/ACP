@@ -157,11 +157,63 @@ Allora possono essere adottate delle semantiche:
 
 
 #### Il Modello MOM (Orientato ai Messaggi)
+Il modello a scambio di messaggi si basano sull'astrazione di una *coda di messaggi* - rappresenta il modello di **mailbox**.
+Nel modello MOM la comunicazione é tra pari (_peer-to-peer_) di tipo produttore consumatore, tipicamente asincrona.
+> [!warning] NotaBene
+> Alcuni implementano messaggi di tipo **sincrono**
+
+I sistemi MOM possono adottare modelli *publish-subscribe* in cui:
+- **produttori**: pubblicano i messaggi differenziati per tipo
+- **consumatori**: si dichiarano interessati ai messaggi
+- [p] Le piattaforme MOM sono adatte per applicazioni guidate dagli eventi (event-driven)
+      al verificarsi di un evento un *produttore* affida al middleware la responsabilitá di notificarne la disponibilitá ai processi.
+      Molti processi MOM realizzano anche la persistenza dei messaggi.
+
+Solitamente i MOM sono utilizzzati per rimpiazzare gli RPC dato che:
+- [d] **RPC**: Le chiamate RPC sono sincrone e possiamo avere problemi di scalabilità
+- [d] **RPC**: Le richieste arretrate rallentano il sistema
+- [u] **MOM**: Utilizza un meccanismo asincrono per incrementare la scalabilità
+- [u] **MOM**: Migrare da un server all’altro utilizzando i broker nel caso di fallimento di un server
+##### Comunicazione indiretta
+La comunincazione avvine tramite un intermediario, senza un accoppiamento diretto tra sender e reciver. La natura dell'inetrmediario dipende dall'approccio:
+- *group communication*: un messaggio viene inviato ad un gruppo, quindi recapitato a tutti i membri
+- *shared memory*: distribuited shared memory, ~tuple_space~
+- **code di messaggi**: meccanismo point-to-point. Il messaggio in una coda viene prelevato da un solo reciver
+- **publish-subscribe**: il Publisher genera messaggi, il Subscriber esprime interesse ad un certo topic
+
+##### Code e Publish-Subscribe
+Questi middleware sono noti come message-oriented middleware. I sistemi Publish-Subscribe sono noti anche come *distributed event-based system*.
+Il MOM gioca il ruolo di intermediario (message broker) nella comunicazione indiretta basata su messaggi:
+- garantisce lo scambio con tecniche di store-and-forward
+- solleva il programmatore dai dettagli di basso livello ed espone le API come primitive (send-recive).
 
 
+##### Aspetti chiave
+Gli applicativi di send e recive possono risiedere su macchine differenti; La comunicazione avviene tramite la rete ed il MOM può conservare un messaggio finche la rete non diventa disponibile.
+Le applicazioni potrebbero non essere attive contemporaneamente durante l'invio di messaggi, ma il sender non si blocca nell'attesa che il reciver riceva il messaggio (*comunicazione asincrona*)
+##### Disaccoppiamento
+I MOM fornsicono un meccanismo per l'integrazione flessibile e disaccoppiate di applicazioni distribuite:
+- **Disaccoppiamento Spaziale**: Il sender non conosce l'identità del reciver
+- **Disaccoppiamento Temporale**: Il sender e il reciver possono avere cicli di vita differenti
+
+##### Evento e Notifica
+La comunicazione indiretta é fortemente utilizzata per la propagazioene di eventi nei sistemi distribuiti:
+- *Evento*: condizione rilevata e comunicata all'intermediario sotto forma di messaggio
+- *Notifica*: L'atto di informare un insieme di applicazioni dell'occorenza dell'evento
+###### observer
+- Observer dichiare interesse agli eventi generati dal/nel subject attraverso la **sottoscrizione**
+- subject rileve l'coccorenza di un evento e notifica agli ooservatori
+
+
+
+
+[[#Esempio MOM - Activemq/Stomp]]
 
 ---
 # Esempi di Middleware
+>[!example] Index
+>[[#Esempio RPC - Sun RPC]]
+>[[#Esempio MOM - Activemq/Stomp]]
 
 ## Esempio RPC - Sun RPC
 
@@ -199,3 +251,4 @@ Esso per consentire la trasparenza della locazione adotta il ***binding dinamico
 > Sul nodo servente il Dispatcher si occuperà di inoltrare i messaggi agli Stub opportuni![[SunRPC_Dispatcher.png]]
 
 ---
+## Esempio MOM - Activemq/Stomp

@@ -7,6 +7,21 @@ import magazzino_pb2_grpc as mag
 import threading as mt
 
 
+def process_products():
+    products_to_add = []
+    for i in range(0,5):
+        id = randint(0,100)
+        if i%2 == 0:
+            products_to_add.append(mag_msg.articolo(tipo='laptop', id=id))
+
+        else:
+            products_to_add.append(mag_msg.articolo(tipo='smartphone', id=id))
+
+    for product in products_to_add:
+        print(product)
+        yield product
+
+
 def start(socket, n):
     lg.warning("Thread start")
     with grpc.insecure_channel(socket) as ch:
@@ -36,18 +51,15 @@ def start(socket, n):
             products = stub.show(mag_msg.msg_tipo(tipo="laptop"))
             for product in products:
                 print(product)
+        
         if n == 'm':
-            products_to_add = []
-            for i in range(0,5):
-                id = randint(0,100)
-                if i%2 == 0:
-                    products_to_add.append(mag_msg.msg_articolo(tipo='laptop', id=id))
+            products_iter = process_products()
 
-                else:
-                    products_to_add.append(mag_msg.msg_articolo(tipo='smartphone', id=id))
+            resposnses = stub.add_multiple(products_iter)
+            for resposne in resposnses:
+                print(resposne)
 
-            for prduct in products_to_add:
-                yield 
+
 
 if __name__=="__main__":
 

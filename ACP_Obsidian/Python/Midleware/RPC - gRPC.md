@@ -103,7 +103,7 @@ python -m grpc_tools.protoc --python_out=. --pyi_out=. --grpc_python_out=. hello
 python -m grpc_tools.protoc -Iprotos --python_out=. --pyi_out=. --grpc_python_out=. protos/helloworld.proto
 ```
 
-La compilazione genera due file:
+#compilazione La compilazione genera due file:
 - helloworld_pb2.py: che contiene il codice protobuf per popolare, serializzare e recuperare i tipi di messaggi
 - helloworld_pb2_grpc.py: che contiene
 	- interfaccia proxy

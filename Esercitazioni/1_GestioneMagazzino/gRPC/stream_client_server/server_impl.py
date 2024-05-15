@@ -75,4 +75,9 @@ class Maagazzino(mag.gestioneMagazzinoServicer):
                 yield art
 
     def add_multiple(self, requests, context):
-        print(requests)
+        resp = []
+        for req in requests:
+            resp.append(self.deposita(req,context))
+        
+        for r in resp:
+            yield r

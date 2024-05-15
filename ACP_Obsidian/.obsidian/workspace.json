@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "366daedaadbc4a2e",
+        "id": "bb37cc7475988501",
         "type": "tabs",
         "children": [
           {
-            "id": "e9c14ee386f28bdb",
+            "id": "8e7dddd3e338714e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Midleware/RPC - gRPC.md",
-                "mode": "preview",
+                "file": "Appunti/13 - Sistemi Middleware.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Midleware/RPC - gRPC.md",
+                "file": "Appunti/13 - Sistemi Middleware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Midleware/RPC - gRPC.md",
+                "file": "Appunti/13 - Sistemi Middleware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Midleware/RPC - gRPC.md"
+                "file": "Appunti/13 - Sistemi Middleware.md"
               }
             }
           }
@@ -147,14 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9c14ee386f28bdb",
+  "active": "8e7dddd3e338714e",
   "lastOpenFiles": [
+    "Python/Midleware/RPC - gRPC.md",
     "Appunti/12 - Programmazione su Rete in Python.md",
     "Welcome.md",
     "Export/Teoria.md",
     "Export/Python.md",
     "Appunti/13 - Sistemi Middleware.md",
-    "Python/Midleware/RPC - gRPC.md",
     "Export",
     "Esempio.md",
     "Python/Midleware",
