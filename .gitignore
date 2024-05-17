@@ -1,2 +1,3 @@
 docker_machine/
 *.DS_Store
+.venv/
