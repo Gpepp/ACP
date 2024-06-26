@@ -10,7 +10,7 @@ Le socket sono caratterizzate da _Indirizzo IP_, *Numero di porto*. ![[Screensho
 ## Configurazione
 Modulo **socket** 
 
-```
+```python
 import socket
 s = socket.socket(socket_family, socket_type)
 ```
@@ -34,7 +34,7 @@ s = socket.socket(socket_family, socket_type)
 - `send(string)` invia dati tramite socket
 - `recv(bufsize)`: riceve i dati tramite socket
 ##### Server
-```
+```python
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 address = (localhost, 0)
 s.bind(address) #con 0 il computer stabilsce in automatico la port
@@ -46,7 +46,7 @@ conn.close()
 s.close()
 ```
 ##### Client
-```
+```python
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 address = (localhost, 55555) # porta ricevuta da server
 s.send(msg.encode("utf-8"))
@@ -60,7 +60,7 @@ s.close()
 - `recvfrom(bufsize)`: riceve i dati tramite socket
 	- il valore di ritonro è `string, address`
 ##### Server
-```
+```python
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 address = (localhost, 0)
 s.bind(address) #con 0 il computer stabilsce in automatico la port
@@ -70,7 +70,7 @@ s.sendto(msg.encode("utf-8"), addr)
 s.close()
 ```
 ##### Client
-```
+```python
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 address = (localhost, 55555) # porta ricevuta da server
 s.sendto(msg.encode("utf-8"), address)
@@ -81,7 +81,7 @@ s.close()
 I thread/Process devono prevedere un costruttore la `run_fun`che contiene il codice sorgente
 - TCP: ogni connessione é gestita da un thread/processo differente
 - UDP: ogni richiesta é gestita da un thread/processo differente
-```
+```python
 import threading
 
 def thd_fun(c):
@@ -102,7 +102,7 @@ if __name__=='__main__':
 	
 ```
 
-```
+```python
 import multiprocess as mp
 
 def proc_fun(c):

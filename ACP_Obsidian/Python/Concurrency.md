@@ -14,7 +14,7 @@ Il modulo mette a disposizione delle calssi:
 ## Thread
 ### Funzionamento
 Implementazione tramite costruttore:
-```
+```python
 def th_fun(c):
 	pass
 
@@ -24,7 +24,7 @@ if __name__ =="__main__":
 	t.join()
 ```
 Implementazione tramite classe:
-```
+```python
 class myThread(threading.Thread):
 	def run(self):
 		pass

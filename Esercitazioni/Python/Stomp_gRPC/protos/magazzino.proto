@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package magazzino;
+
+service magazzino{
+    rpc deposita (msg_articolo) returns(msg_ack) {}
+    rpc preleva (msg) returns (msg_articolo) {}
+    rpc svuota (msg) returns (msg_ack) {}
+}
+
+
+message msg_articolo{
+    string id = 1;
+    string prod = 2;
+}
+
+message msg{
+
+}
+
+message msg_ack {
+    string ack = 1;
+}

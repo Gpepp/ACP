@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package client;
+
+service command {
+    rpc deposita (msg_deposita) returns (msg_response) {}
+    rpc preleva (msg_preleva) returns (msg_response) {}
+}
+
+message msg_deposita {
+    string id = 1;
+}
+
+message msg_preleva{
+
+}
+
+message msg_response {
+    string response = 1;
+}

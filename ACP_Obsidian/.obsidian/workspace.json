@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "bb37cc7475988501",
+        "id": "409dab6e74041f72",
         "type": "tabs",
         "children": [
           {
-            "id": "8e7dddd3e338714e",
+            "id": "5d744d19a69643cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Appunti/13 - Sistemi Middleware.md",
+                "file": "Python/Midleware/MOM - ActiveMQ_Stomp.md",
                 "mode": "source",
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40faf8166850bdc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Midleware/RPC - gRPC.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Appunti/13 - Sistemi Middleware.md",
+                "file": "Python/Midleware/RPC - gRPC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Appunti/13 - Sistemi Middleware.md",
+                "file": "Python/Midleware/RPC - gRPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Appunti/13 - Sistemi Middleware.md"
+                "file": "Python/Midleware/RPC - gRPC.md"
               }
             }
           }
@@ -147,27 +160,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e7dddd3e338714e",
+  "active": "bf647e9a7ee0cd3b",
   "lastOpenFiles": [
-    "Python/Midleware/RPC - gRPC.md",
-    "Appunti/12 - Programmazione su Rete in Python.md",
+    "Python/Applicazioni client-server.md",
+    "Python/Socket.md",
     "Welcome.md",
-    "Export/Teoria.md",
+    "Java",
+    "Appunti/Py/0 - Index.md",
+    "Appunti/Py/13 - Sistemi Middleware.md",
+    "Appunti/Py",
+    "Appunti/Py/12 - Programmazione su Rete in Python.md",
+    "Esercitazioni/17-04-2024.md",
+    "Python/Midleware/MOM - ActiveMQ_Stomp.md",
+    "Python/Midleware/RPC - gRPC.md",
+    "Python/Concurrency.md",
     "Export/Python.md",
-    "Appunti/13 - Sistemi Middleware.md",
+    "Export/Teoria.md",
     "Export",
     "Esempio.md",
     "Python/Midleware",
     "Appunti/img/SunRPC_Dispatcher.png",
     "Untitled.canvas",
-    "Appunti/0 - Index.md",
     "Appunti/img",
     "Appunti/img/Sistemi_Distribuiti.png",
-    "Python/Socket.md",
-    "Python/Concurrency.md",
     "Appunti",
-    "Python/Applicazioni client-server.md",
-    "Esercitazioni/17-04-2024.md",
     "Python",
     "Esercitazioni",
     "ACP/Python/Applicazioni client-server.md",
@@ -176,7 +192,6 @@
     "ACP/Python/Concurrency.md",
     "ACP/Esercitazioni",
     "ACP/Python",
-    "ACP",
     "create a link.md"
   ]
 }

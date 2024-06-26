@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "lib"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/giuseppeturco/Documents/Università/III_Anno/II_Semestre/ACP/docker_machine/util/uncompressed/jms1.1/lib/javax.jms.jar"
+    ]
+}
