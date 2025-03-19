@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package productM;
+
+// Generated according to https://cloud.google.com/apis/design/standard_methods
+service ProductManager {
+    rpc Sell(msg_sell) returns (msg_ack) {}
+    rpc Buy(msg_buy) returns (msg_sell) {}
+}
+
+
+message msg_sell {
+  int32 serial_number = 1;
+}
+
+message msg_buy {}
+
+
+message msg_ack {
+    string ack = 1;
+}

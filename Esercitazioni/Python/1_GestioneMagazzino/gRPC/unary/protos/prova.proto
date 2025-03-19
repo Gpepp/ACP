@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package af;
+
+service asf {
+
+  rpc DeleteType(DeleteTypeRequest) returns (google.protobuf.Empty) {}
+}
+
+
+message DeleteTypeRequest {
+  // The resource name of the Type to be deleted.
+  string name = 1;
+}
